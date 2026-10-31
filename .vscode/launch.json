@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Calendar (debug)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "Calendar (profile)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Calendar (release)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Calendar (web / Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["-d", "chrome"]
+    }
+  ]
+}
